@@ -1,0 +1,29 @@
+@import "../../../../styles/variables.css";
+
+.chartBox{
+    display: flex;
+    height: 100%;
+    .boxInfo{
+        
+        .title{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 8px;
+            padding-left: 10px;
+            span{
+                margin-left: 12px;
+            }
+            h1{
+                border-top: 2px solid var(--soft-bg);
+                padding: 10px;
+                display: flex;
+            }
+            .arrow{
+                margin-left: 50px;
+                padding-top: 10px;
+                color: black;
+            }
+        }
+    }
+}
